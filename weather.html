@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER WEBSITE</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="header">
+        <h1>WEATHER FORECAST</h1>
+        <div>
+            <input type="text" name="" id="input" placeholder="Enter city name">
+            <button id="search" onclick="searchByCity()">Search</button></input>
+        </div>
+    </div>
+
+    <main>        
+        <div class="weather">
+            <h2 id="city">Nagpur,IN</h2>
+            <div class="temp-box">
+                <img src="iconpfg.jpeg" alt="" id="img">
+                <p id="temperature">26 °C</p>
+            </div>
+            <span id="clouds">SUNNY</span>
+        </div>
+        <div class="divider1"></div>
+
+        <div class="forecstH">
+            <p class="cast-header">Upcoming forecast</p>
+            <div class="templist">
+
+                <div class="next">
+                    <div>
+                        <p class="time">7:30 AM</p>
+                        <p>29 °C / 31 °C</p>
+                    </div>
+                    <p class="desc">SUNNY</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">10:30 AM</p>
+                        <p>31 °C / 33 °C</p>
+                    </div>
+                    <p class="desc">SUNNY</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">12:30 PM</p>
+                        <p>34 °C / 35 °C</p>
+                    </div>
+                    <p class="desc">SUNNY</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">2:30 PM</p>
+                        <p>32 °C / 34 °C</p>
+                    </div>
+                    <p class="desc">SUNNY</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">4:30 PM</p>
+                        <p>31 °C / 32 °C</p>
+                    </div>
+                    <p class="desc">SUNNY</p>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <div class="forecstD">
+        <div class="divider2"></div>
+        <p class="cast-header"> Next 4 days forecast</p>
+        <div class="weekF">
+
+            <div class="dayF">
+                <p class="date">Sun Dec 03 2023</p>
+                <p>31 °C / 31 °C</p>
+                <p class="desc">Pretty Sunny</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">Sun Dec 04 2022</p>
+                <p>33 °C / 31 °C</p>
+                <p class="desc">Pretty Sunny</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">Sun Dec 05 2022</p>
+                <p>31 °C / 34 °C</p>
+                <p class="desc">Pretty Sunny</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">Sun Dec 06 2022</p>
+                <p>28 °C / 35 °C</p>
+                <p class="desc">Pretty Sunny</p>
+            </div>
+        </div>
+    </div>
+    <script src="/weather.js"></script>
+</body>
+</html>
